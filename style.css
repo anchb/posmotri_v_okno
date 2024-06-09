@@ -134,6 +134,10 @@ ol {
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   font-size: 30px;
+  text-overflow: ellipsis; 
+  white-space: nowrap; 
+  overflow: hidden;
+  max-width: 200px;
 }
 
 .content__video-card-description {
